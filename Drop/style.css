@@ -1,0 +1,165 @@
+body {
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+  background-color: #123752;
+  color: #D9F5FF;
+  font-family: 'Comfortaa', cursive;
+}
+
+body > * {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav {
+  color: #92DDF8;
+	background-color: #1081A1;
+	justify-content: space-around;
+	height: 65px;
+	width: 100%;
+  font-size: 16pt;
+  margin-bottom: 30px;
+}
+
+#title {
+  height: 65px;
+	width: 100px;
+}
+
+/* I can't format this correctly for the life of me */
+#drop {
+  max-width: 50%;
+  max-height: 50%;
+  margin-top: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #D9F5FF;
+}
+
+.title-section {
+  display: flex;
+  align-content: start;
+}
+
+nav > a:hover {
+  color: #92DDF8;
+}
+
+#vertical-line {
+  border-left: 1px solid rgb(213, 251, 253);
+  margin: 0;
+  height: 30px;
+}
+
+#world {
+  max-width: 50%;
+  max-height: 50%
+}
+
+form {
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+form input {
+  width: 23vw;
+  margin-bottom: 5px;
+  height: 35px;
+  border-radius: 10px;
+  font-family: 'Comfortaa', cursive;
+  border: none;
+}
+
+#text-body {
+  width: 70vw;
+}
+
+button {
+  align-self: flex-end;
+  font-family: 'Comfortaa', cursive;
+  border: none;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #D9F5FF;
+}
+
+#intro {
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+  margin: 60px;
+  max-height: 40vh;
+  max-width: 70vw;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  background-color: #D9F5FF;
+  align-content: center;
+  justify-content: flex-start;
+  width: 400px;
+  height: 400px;
+  margin: 25px;
+  color: black;
+  flex-direction: column;
+}
+
+.card > img {
+  align-self: center;
+  height: 35%;
+  width: 35%;
+  margin: 15px;
+}
+
+.card > p {
+  font-size: 30px;
+  margin: 30px;
+}
+
+#posts {
+  flex-direction: column;
+}
+
+hr {
+  width: 70vw;
+  border: solid 0.5px;
+  background-color: #D9F5FF;
+}
+
+.post {
+  width: 70vw;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 5px;
+}
+
+#replies > img {
+  height: 16px;
+  width: 16px;
+}
+
+#map {
+  height: 700px;
+  width: 80vw;
+  flex-direction: column;
+}
+
+#map img {
+  max-width: 100%;
+  max-height: 100%;
+}
